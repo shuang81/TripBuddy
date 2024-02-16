@@ -1,0 +1,43 @@
+.country {
+    width: 200px;
+    margin: 10px;
+}
+
+.city {
+    width: 200px;
+    margin: 10px;
+}
+
+.date {
+    width: 200px;
+    margin: 10px;
+}
+
+.rating {
+    width: 200px;
+    margin: 10px;
+}
+
+.wrap {
+    display: -webkit-box;
+}
+
+.addPostButton {
+    margin: 20px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}  
+
+.cancelButton {
+    background-color: rgb(255, 255, 102);
+}
+
+textarea {
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}

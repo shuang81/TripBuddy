@@ -1,0 +1,40 @@
+.boldItalic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.login {
+    position: absolute;
+    right: 5vw;
+    width: auto;
+}
+  
+  .login {
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    cursor: pointer;
+    border: none;
+    margin: .1em;
+  }
+
+.logout {
+    position: fixed;
+    right: 5vw;
+    width: auto;
+}
+
+.setting {
+    position: fixed;
+    right: 7vw;
+    width: auto;
+}
+
+.navbar {
+    width: 75vw; 
+    height: auto;
+}
+
+.navbar p {
+  color: white;
+}

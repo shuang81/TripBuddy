@@ -1,0 +1,32 @@
+.carousel {
+    min-height: 500px;
+    width: 500px;
+    margin: 50px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.city {
+    background-color:greenyellow;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+
+.category {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 2px 4px;
+    margin-left: 10px;
+}
+
+.image {
+    object-fit: cover;
+    height: 300px;
+    width: 500px; 
+    margin-bottom: 20px;
+}

@@ -1,0 +1,78 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.629);
+    height: 100%;
+    width: 100vw;
+}
+
+.popup {
+    margin: auto;
+    margin-top: 200px;
+    max-width: 60%;
+    height: 500px;
+    background-color: #F9F9F9;
+    padding: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header {
+    grid-column: 2 span;
+}
+
+.footer {
+    grid-column: 2;
+}
+
+.username {
+    color: #539165;
+    font-weight: 500;
+    display: block;
+}
+
+.name {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.city {
+    background-color: #FDD36A;
+    padding: 4px 8px;
+    border-radius: 15px;
+}
+
+.country {
+    background-color: #F0A04B;
+    padding: 4px 8px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+.created {
+    margin-top: 15px;
+    display: block;
+    color: grey;
+}
+
+
+.image {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+}
+
+.bio {
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}

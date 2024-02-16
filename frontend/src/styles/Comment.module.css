@@ -1,0 +1,9 @@
+.comment {
+    min-height: 50px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: lightgrey 1px solid;
+    margin: 15px auto;
+    background-color:whitesmoke;
+}

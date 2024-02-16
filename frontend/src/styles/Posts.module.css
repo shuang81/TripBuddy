@@ -1,0 +1,230 @@
+.tag {
+    background-color: #FDD36A;
+    color: white;
+    padding: 3px 14px;
+    border-radius: 12px;
+    border:#FDD36A 1px;
+    margin-bottom: 5px;
+}
+
+.tag-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 15px;
+}
+
+.location-tag {
+    color: #73777B;
+}
+
+.date-tag {
+    color: #CFD2CF;
+    align-self: baseline;
+    max-width: 50%;
+}
+
+.post-preview {
+    width: 20rem;
+}
+
+.post-button {
+    background-color: #2D2E2E;
+}
+
+.horizontal-card {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin-bottom: 2rem;
+    border: #73777B 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.details-div {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.horizontal-card img {
+    max-width: 60%;
+    margin: 20px;
+}
+
+.horizontal-card .date-tag {
+    margin: 10px 20px 10px;
+}
+
+.buttons-div {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+.buttons-div button {
+    margin-bottom: 20px;
+}
+
+.horizontal-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Style for single post view */
+
+.post-grid {
+    background-color: white;
+}
+
+@media (min-width: 1000px) {
+    .post-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-content: center;
+        margin: 40px auto;
+        row-gap: 30px;
+        border: #73777B 1px solid;
+        border-radius: 15px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 999px) {
+    .post-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.post-image-div {
+    height: auto;
+    width: 30%;
+}
+
+.post-image-div img {
+    max-width: 600px;
+    max-height: 500px;
+    margin: 20px;
+}
+
+.post-header-div {
+    min-height: 200px;
+    width: 70%;
+    margin: 20px;
+    margin-right: auto;
+}
+
+.post-body-div {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    min-height: 200px;
+    width: auto;
+    margin: 20px;
+}
+
+.post-footer-div {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    min-height: 100px;
+    width: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-comments-div {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    height: auto;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.back-button-div {
+    width: 70%;
+    margin: auto;
+}
+
+.comment-like {
+    width: 50px;
+    height: 50px;
+}
+
+.new-comment {
+    min-height: 50px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: lightgrey 1px solid;
+    background-color:whitesmoke;
+}
+
+.new-comment-div {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.new-comment-div button {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.cat-tag {
+    background-color: #FDD36A;
+    color: white;
+    padding: 3px 14px;
+    border-radius: 12px;
+    border:#FDD36A 1px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.image-date-div {
+    max-width: 50%;
+}
+
+.rating-tag {
+    font-size: 3rem;
+    text-align: end;
+    display: flex;
+    justify-items: center;
+    justify-content: end;
+}
+
+.rating-tag img {
+    width: 3rem;
+    height: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.post-horizontal-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.remove-btn {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.remove-btn img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.like-comment-count {
+    color: grey;
+    font-size: 1.6rem;
+    margin-right: 5px;
+    margin-left: 15px;
+}

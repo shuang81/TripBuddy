@@ -1,0 +1,134 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: auto;
+    margin-left: auto;
+    grid-column-start: 1;
+    grid-column-end: 1;
+ }
+
+div > .search-bar {
+    min-width: 300px;
+}
+  
+.search-bar form {
+    margin-right: 2rem;
+    margin-left: 5px;
+}
+
+.search-bar button {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+@media (min-width: 800px) {
+    .search-bar {
+        width: 40rem;
+    }
+}
+
+.posts-grid {
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+    align-content: space-evenly;
+    margin: 100px;
+    row-gap: 30px;
+    column-gap: 20px;
+    grid-column-start: 1;
+}
+
+@media (min-width: 1700px) {
+    .posts-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1699px) {
+    .posts-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 799px) {
+    .posts-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.browsing-posts-layout {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+.content-providers-block {
+    width: 50vw;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: #73777B 1px;
+    box-shadow: 5px 5px 18px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+@media (min-width: 1300px) {
+    .content-providers-block {
+        grid-row-start: 2;
+        grid-row-end: span 3;
+        grid-column-start: 2;
+        min-width: 20rem;
+        height: 40rem;
+    }
+}
+
+@media (max-width: 1299px) {
+    .content-providers-block {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        margin-top: 20px;
+    }
+}
+
+.post-preview {
+    width: 20rem;
+}
+
+.post-preview img {
+    width: 70%;
+    margin: 40px auto 10px;
+}
+
+.post-button {
+    background-color: #2D2E2E;
+}
+
+.not-found {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+}
+
+.author-tag {
+    color: #539165;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.author-tag:visited {
+    color: #539165;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.author-tag:hover {
+    color: #C3E5AE;
+    text-decoration: none;
+    font-weight: 500;
+}
