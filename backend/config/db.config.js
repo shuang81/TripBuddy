@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+mongoose.set('strictQuery', false);
 
 module.exports = async () => {
     const db = mongoose.connect(process.env.DB_URL, {
