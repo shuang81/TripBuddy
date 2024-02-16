@@ -8,6 +8,13 @@ const configureApp = require('./config/app.config');
 configureDB();
 const app = configureApp();
 
+app.get("/test", (req, res) => {
+    res.json({
+        message: "test work!",
+    });
+});
+
+
 // start the app on port 5000
 app.listen(process.env.PORT || 5000);
 
