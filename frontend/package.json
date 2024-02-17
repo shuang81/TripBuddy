@@ -1,6 +1,5 @@
 {
   "name": "trip_buddy_frontend",
-  "homepage": "https://<shuang81>.github.io/<TripBuddy>/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
